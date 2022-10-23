@@ -8,14 +8,14 @@
 
 </p>
 
-> Olá, esse bot de whatsapp foi criado com foco em atendimento ao cliente.
+> Olá, esse é o esqueleto de bot para whatsapp.
 
 ## Instalando bot
 ```bash
-git clone https://kaualandi@bitbucket.org/noclaftech/chatbot-restaurante.git
+git clone https://github.com/kaualandi/wa-bot-skeleton
 ```
 ```bash
-cd chatbot-restaurante
+cd wa-bot-skeleton
 ```
 ```bash
 npm install
@@ -79,7 +79,19 @@ Escaneie o QR Code como se estivesse conectando ao whatsapp web e mande um `Olá
 
 > Não se esqueça de verificar se o multidevices (Multiplos Dispositivos) está ativado em seu whatsapp.
 
-Se quiser usar o pm2, execute:
+### Ambiente de Produção
+
+Compile o bot:
 ```bash
-pm2 start index.js --name wabot-bot
+npm run build
+```
+
+Vá para a pasta gerada:
+```bash
+cd build
+```
+
+Inicie o PM2:
+```bash
+pm2 start app.js --name wabot-bot
 ```

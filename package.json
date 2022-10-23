@@ -8,7 +8,7 @@
     "server:w": "json-server --watch ./server/db.json --port 3004",
     "build": "rimraf ./build && tsc",
     "start": "nodemon",
-    "start:prod": "npm run build && node build/index.js"
+    "start:prod": "npm run build && node build/app.js"
   },
   "keywords": [],
   "author": "Kauã Landi <kaualandi@hotmail.com>",
