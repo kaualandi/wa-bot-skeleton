@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "5521995660600@c.us",
+      "name": "Linézio Silva",
+      "step": "s0",
+      "lastMessage": 1666533810786,
+      "submitedName": null,
+      "selectedCity": null,
+      "selectedDistrict": null
+    },
+    {
+      "id": "5521995568755@c.us",
+      "name": "Ruan Landi",
+      "step": "s0",
+      "lastMessage": 1666538812952,
+      "submitedName": null,
+      "selectedCity": null,
+      "selectedDistrict": null
+    }
+  ]
+}
